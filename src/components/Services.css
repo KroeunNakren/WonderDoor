@@ -1,0 +1,14 @@
+/* Auto horizontal scroll animation */
+@keyframes auto-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Apply animation */
+.auto-scroll {
+  animation: auto-scroll 30s linear infinite;
+}
